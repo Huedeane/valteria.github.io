@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+    <title>Home Page</title>
+    <link href="index.css" rel="stylesheet" />
+  </head>
+  <body>
+    <canvas width="4000" height="2600" id="snowCanvas"></canvas>
+    <div id="wrapper" id="snowCanvas">
+      <header id="home"></header>
+
+      <nav>
+        <ul>
+          <li>
+            <img class="SideIcon" src="images/home.png" /><a
+              href="http://hdinh.altervista.org/ITEC/index.html"
+              >Home</a
+            >
+          </li>
+          <li>
+            <img class="SideIcon" src="images/about.png" /><a
+              href="#about"
+              >About</a
+            >
+          </li>
+          <li>
+            <img class="SideIcon" src="images/education.png" /><a
+              href="#education"
+              >Education</a
+            >
+          </li>
+          <li>
+            <img class="SideIcon" src="images/experience.png" /><a
+              href="#experience"
+              >Experience</a
+            >
+          </li>
+          <li>
+            <img class="SideIcon" src="images/skill.png" /><a
+              href="#skills"
+              >Skills</a
+            >
+          </li>
+          <li>
+            <img class="SideIcon" src="images/project.png" /><a
+              href="#project"
+              >Projects</a
+            >
+          </li>
+          <li>
+            <img class="SideIcon" src="images/contact.png" /><a
+              href="#contact"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <aside>
+        <div id="contact"></div>
+        <h3>Address</h3>
+        <p>Lawrenceville, GA, 30043</p>
+        <h3>Contact</h3>
+        <a href="tel:678-381-6060" style="font-size: 15px;">Call: 678-381-6060</a><br>
+        <a href="mailto:hdinh1354@gmail.com" style="font-size: 15px;">Email: hdinh1354@gmail.com</a><br>
+        <a href="https://github.com/Valteria" style="font-size: 15px;">Github</a><br>
+        <a href="https://www.linkedin.com/in/hieu-dinh-939a80158/" style="font-size: 15px;">Linkedin</a><br>
+      </aside>
+      <main>
+        <h1 class="name">Hieu Dinh</h1>
+        <picture>
+          <img class="profilePic" src="images/profile_large.png" />
+        </picture>
+
+        <div id="about"></div>
+        <div id="education">
+          <h2>Education:</h2>
+          <ol class="mainList">
+            <li>
+                <div id="titleLeft">Georgia Gwinnett College</div>
+                <div id="titleRight">Fall 2019</div>
+                <br>
+                <ul class="subList">
+                  <li>Bachelor of Science in Software Development</li>
+                </ul>
+            </li>
+          </ol>
+        </div>
+
+        <div id="experience">
+          <h2>Experience:</h2>
+          <ol class="mainList">
+            <li>
+              <div id="titleLeft">Georgia Gwinnett College</div>
+              <div id="titleRight">Dec 2016 - Dec 2019</div>
+              <br>
+              <div id="titleLeft">Student Assistant – IT Help Desk</div>
+            </li>
+            <br>
+            <ul class="subList">
+              <li>Diagnosed issues and collaborated with employees to tackle technical problems</li>
+              <li>Frontline point of contact for faculty, staff, and student issues via phone and e-mail.</li>
+              <li>Utilized university web-based ticketing system to create, assign, and update work order tickets.</li>
+              <li>Over-the-phone troubleshooting and remote assistance.</li>
+              <li>Maintained and managed computer labs and laptop carts.</li>
+            </ul>
+            <br>
+            <li>
+              <div id="titleLeft">Georgia Gwinnett College</div>
+              <div id="titleRight">Aug 2019 - Dec 2019</div>
+              <br>
+              <div id="titleLeft">Technology Ambassador Program Internship</div>
+            </li>
+            <br>
+            <ul class="subList">
+              <li>Developed an interactive project that engages and teaches students to better understand technology.</li>
+              <li>Created student-driven workshops for event to attract non-IT major students.</li>
+              <li>Designed and presented a poster for CCSC:SE conference</li>
+              <li>Peer leader at campus event demoing project to middle and high school students.</li>
+            </ul>
+          </ol>
+        </div>
+
+        <div id="skills">
+          <h2>Skills</h2>
+          <ul class="mainListDashed">
+            <li>Java</li>
+            <li>C#</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Asp.Net</li>
+            <li>Agile</li>
+            <li>JIRA</li>
+            <li>Git</li>
+          </ul>
+        </div>
+        <div id="project">
+          <h2>Project</h2>
+          <ol class="mainList">
+            <li class="inline">Discord Chat Bot</li>
+            <li class="inline">(Technology Used: Discord, C#)</li>
+            <ul class="subList">
+              <li>
+                Hosted a bot for community chat server
+              </li>
+              <li>
+                Extract information from wiki page and output formatted information to chat server as a message
+              </li>
+              <li>
+                Process basic chat command and stores user input to a text file
+              </li>
+            </ul>
+            <br>
+            <li class="inline">Network UNO</li>
+            <li class="inline">(Technology Used: C#, Unity, UNET)</li>
+            <ul class="subList">
+              <li>Multiplayer Game based on the popular card game UNO</li>
+              <li>Implemented Server Authoritative Networking using UNET (Unity Networking API)</li>
+              <li>User can host their own server through unity or match make through LAN</li>
+              <li>Added in a chat messenger that user can use to communicate with other players.</li>
+            </ul>
+            <br>
+            <li class="inline">Text Based Adventure Game </li>
+            <li class="inline">(Technologies: Java, JavaFX, Scene Builder)</li>
+            <ul class="subList">
+              <li>Developed project for client using Waterfall Methodology and Requirement Document</li>
+              <li>Text Based and GUI customizable RPG java game implemented using MVC design pattern</li>
+              <li>Designed a GUI interface for game using Scene Builder and JavaFX</li>
+              <li>Implemented Level Editor where user can create their own game by writing files.</li>
+              <li>Save/Loading feature allow user to pick up their game from a save point</li>
+            </ul>
+            <br>
+            <li class="inline">Synthetic Instrument </li>
+            <li class="inline">(Technologies: Godot, GD Script, Makey Makey)</li>
+            <ul class="subList">
+              <li>Developed a synthetic violin using cardboard, copper wiring, and a Makey Makey chip set which convert electoral current into keyboard input.</li>
+              <li>Designed an interface using Godot where keyboard input is transmitted into instrumental sounds</li>
+              <li>Formed interactive workshop to teach student programming by allowing them to create and program their own synthetic instrument</li>
+            </ul>
+          </ol>
+        </div>
+        <br />
+        <div class="bottomText">
+          <a href="#home">Back to top</a>
+        </div>
+        <br />
+        <footer>Copyright &copy; Hieu Dinh 2019 <br /></footer>
+      </main>
+    </div>
+  </body>
+  <script>
+    /* Source: https://www.timewasters-place.com/snow-effect-done-in-html-5/
+     */
+    window.onload = function() {
+      /* --- config start --- */
+
+      var snowCanvasId = "snowCanvas", // id of the canvas to use
+        framerate = 40, // which fps rate to use, this is not followed exactly
+        flakeNumberModifier = 1.0, // change this to change the number of flakes
+        fallSpeedModifier = 0.5; // falling speed
+
+      /* ---- config end ---- */
+
+      var canvas = document.getElementById(snowCanvasId),
+        context = canvas.getContext("2d"),
+        width = canvas.width,
+        height = canvas.height,
+        numFlakes =
+          ((Math.min(width, 300) * height) / 400) * flakeNumberModifier,
+        flakes = [],
+        TWO_PI = Math.PI * 2,
+        radHeight = 40;
+      (flake = document.createElement("CANVAS")),
+        (flakeContext = flake.getContext("2d"));
+
+      // create flake grafic
+      flake.width = 8;
+      flake.height = 8;
+      flakeContext.fillStyle = "#fff";
+      flakeContext.beginPath();
+      flakeContext.arc(4, 4, 4, 0, TWO_PI);
+      flakeContext.fill();
+
+      // init snowflakes
+      for (var x = 0; x < numFlakes; x++) {
+        flakes[x] = getRandomFlake(true);
+      }
+
+      // start tick at specified fps
+      window.setInterval(tick, Math.floor(1000 / framerate));
+
+      // main routine
+      function tick() {
+        var posX = 0,
+          imageData;
+
+        // reset canvas for next frame
+        context.clearRect(0, 0, width, height);
+
+        for (var x = 0; x < numFlakes; x++) {
+          // calculate changes to snowflake
+          posX =
+            flakes[x].x +
+            Math.sin(
+              flakes[x].yMod + (flakes[x].y / radHeight) * (5 - flakes[x].size)
+            ) *
+              flakes[x].waveSize *
+              (1 - flakes[x].size);
+          flakes[x].y += flakes[x].size * fallSpeedModifier; // bigger flakes are nearer to screen, thus they fall faster to create 3d effect
+
+          // if snowflake is out of bounds, reset
+          if (flakes[x].y > height + 5) {
+            flakes[x] = getRandomFlake();
+          }
+
+          // draw snowflake
+          context.globalAlpha = (flakes[x].size - 1) / 3;
+          context.drawImage(
+            flake,
+            posX,
+            flakes[x].y,
+            flakes[x].size,
+            flakes[x].size
+          );
+        }
+
+        // repeat 300px wide strip with snowflakes to fill whole canvas
+        if (width > 300) {
+          context.globalAlpha = 1;
+          context.drawImage(canvas, 300, 0);
+          if (width > 600) context.drawImage(canvas, 600, 0);
+          if (width > 1200) context.drawImage(canvas, 1200, 0);
+          if (width > 2400) context.drawImage(canvas, 2400, 0);
+        }
+      }
+
+      // randomize flake data
+      function getRandomFlake(init) {
+        return {
+          x: range(10, 310),
+          y: init ? range(-5, height + 5) : -5,
+          size: Math.max(range(1, 4), 2),
+          yMod: range(0, 150),
+          waveSize: range(1, 4)
+        };
+      }
+
+      // get a random number inside a range
+      function range(start, end) {
+        return Math.random() * (end - start) + start;
+      }
+    };
+  </script>
+</html>

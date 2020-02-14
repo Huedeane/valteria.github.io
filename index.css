@@ -1,0 +1,283 @@
+canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+
+
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=50)";
+  filter: alpha(opacity=50);
+  -moz-opacity: 0.5;
+  -khtml-opacity: 0.5;
+  opacity: 0.5;
+}
+
+html {
+  background-color: #000000;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+}
+
+header {
+  height: 200px;
+  background: radial-gradient(transparent, transparent, #000000, #000000), url(images/IndexBanner.jpg) no-repeat center;
+  background-size: 100% 100%;
+
+}
+
+.SideIcon {
+  height: 20px;
+  margin-left: 10px;
+}
+
+nav {
+  float: left;
+  padding: 0;
+  width: 140px;
+  background-color: #333;
+}
+
+nav a {
+  color: #f2f2f2;
+
+
+  padding: 10px;
+  display: block;
+
+  text-align: left;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+nav li:hover {
+  background-color: #75BDA7;
+  color: black;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+nav ul li {
+  display: flex;
+  background-color: #333;
+  align-items: center;
+}
+
+.name {
+  text-align: center;
+  margin: 10px;
+
+}
+
+#wrapper {
+  width: 960px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 5px 5px 5px #7A8C8E;
+  background-color: #A4AFB8;
+}
+
+main {
+  margin-left: 140px;
+  margin-right: 210px;
+  padding: 10px;
+  background-color: #CEDBE6;
+}
+
+h1,
+h2 {
+  padding-left: 10px;
+  text-align: left;
+}
+
+.mainList {
+  display: inline-block;
+  width: 90%;
+  text-align: left;
+  list-style-type: none;
+  margin: 0px 0px 0px 25px;
+  padding-left: 20px;
+  border-left: 3px solid #000000;
+  border-left-style: dotted;
+}
+
+.inline {
+  font-style: italic;
+  font-weight: bold;
+}
+
+.opposing {
+  display: flex;
+  justify-content: space-between;
+}
+
+picture {
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+}
+
+.profilePic {
+
+  height: 300px;
+  width: 300px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+li {
+  font-size: 15px;
+  padding-right: 20px;
+}
+
+
+aside {
+  float: right;
+  width: 200px;
+}
+
+aside h3 {
+  border-bottom: 1px solid #000000;
+  text-align: center;
+  margin-right: 10px;
+}
+
+ul.mainListDashed {
+  display: inline-block;
+  text-align: left;
+  list-style-type: none;
+  margin: 0px 0px 0px 25px;
+  padding-left: 20px;
+  border-left: 3px solid #000000;
+  border-left-style: dotted;
+  list-style-type: none;
+}
+
+ul.mainListDashed>li {
+  text-indent: 10px;
+  padding-top: 5px;
+}
+
+ul.mainListDashed>li:before {
+  content: "	- ";
+  text-indent: -5px;
+}
+
+footer {
+  text-align: center;
+  font-size: 0.8em;
+  font-style: italic;
+}
+
+.bottomText {
+  text-align: center;
+}
+
+#titleLeft{
+  float: left; 
+  font-weight: bold; 
+  letter-spacing: -1px;
+}
+
+#titleRight{
+  float: right; 
+  font-weight: bold; 
+  letter-spacing: -1px;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .profilePic {
+
+    height: 200px;
+    width: 200px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  nav {
+    float: none;
+    width: auto;
+    text-align: center;
+    position: static;
+    padding: 10px;
+    display: block;
+
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+  main,
+  footer,
+  header {
+    margin-left: 0;
+  }
+
+  body {
+    margin: 0;
+  }
+
+  #wrapper {
+    width: auto;
+  }
+
+  h1,
+  h2 {
+    font-size: 150%;
+  }
+
+  li {
+    font-size: 90%;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .profilePic {
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  aside {
+    display: none;
+  }
+
+  main,
+  footer,
+  header {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  h1,
+  h2 {
+    font-size: 120%;
+  }
+
+  li {
+    font-size: 80%;
+  }
+
+  nav a {
+    padding: 10px;
+    display: block;
+
+    text-align: left;
+    text-decoration: none;
+    font-size: 15px;
+  }
+
+}
